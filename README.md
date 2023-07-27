@@ -58,16 +58,26 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Endpoints
+Here are the available endpoints of the app:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+GET /buckets - List all buckets
+POST /buckets - Create a new bucket
+GET /buckets/:bucketName/objects - List all objects in a bucket
+POST /buckets/:bucketName/objects - Create a new object in a bucket
+GET /buckets/:bucketName/objects/:objectKey - Retrieve an object
+DELETE /buckets/:bucketName/objects/:objectKey - Delete an object
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## Built With
+NestJS - A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+ 
+ 
+## Contributing
+ Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Nest is [MIT licensed](LICENSE).
