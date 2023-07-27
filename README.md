@@ -61,12 +61,17 @@ $ npm run test:cov
 ## Endpoints
 Here are the available endpoints of the app:
 
-GET /buckets - List all buckets
-POST /buckets - Create a new bucket
-GET /buckets/:bucketName/objects - List all objects in a bucket
-POST /buckets/:bucketName/objects - Create a new object in a bucket
-GET /buckets/:bucketName/objects/:objectKey - Retrieve an object
-DELETE /buckets/:bucketName/objects/:objectKey - Delete an object
+$ GET /buckets - List all buckets 
+
+$ POST /buckets - Create a new bucket
+
+$ GET /buckets/:bucketName/objects - List all objects in a bucket
+
+$ POST /buckets/:bucketName/objects - Create a new object in a bucket
+
+$ GET /buckets/:bucketName/objects/:objectKey - Retrieve an object
+
+$ DELETE /buckets/:bucketName/objects/:objectKey - Delete an object
 
 
 ## Built With
